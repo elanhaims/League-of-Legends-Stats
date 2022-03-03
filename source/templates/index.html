@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aram Stats</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="border">
+        <h1>Elan</h1>
+        <div class="data" id="Elan">
+          <div>
+            <div class="games">
+              <p id="Elangamesplayed"></p>
+            </div>
+            <div class="gamesstats">
+              <p id="Elanwins"></p>
+              <p id="Elanlosses"></p>
+              <p id="Elanwinrate"></p>
+            </div>
+            <div class="mostdamagestats">
+              <p id="Elantimesmostdamage"></p>
+              <p id="Elanmostdamagerate"></p>
+              <p id="Elanwinratemostdamage"></p>
+            </div>
+          </div>
+          <div>
+            <div class="damagestats">
+              <p id="Elanmaxdamage"></p>
+              <p id="Elanavgdamage"></p>
+            </div>
+            <div class="killstats">
+              <p id="Elanmaxkills"></p>
+              <p id="Elanavgkills"></p>
+            </div>
+            <div class="deathstats">
+              <p id="Elanmaxdeaths"></p>
+              <p id="Elanavgdeaths"></p>
+            </div>
+            <div class="multikillstats">
+              <p id="Elanpentakills"></p>
+              <p id="Elanquadrakills"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border">
+        <h1>John</h1>
+        <div class="data" id="John">
+          <div>
+            <div class="games">
+              <p id="Johngamesplayed"></p>
+            </div>
+            <div class="gamesstats">
+              <p id="Johnwins"></p>
+              <p id="Johnlosses"></p>
+              <p id="Johnwinrate"></p>
+            </div>
+            <div class="mostdamagestats">
+              <p id="Johntimesmostdamage"></p>
+              <p id="Johnmostdamagerate"></p>
+              <p id="Johnwinratemostdamage"></p>
+            </div>
+          </div>
+          <div>
+            <div class="damagestats">
+              <p id="Johnmaxdamage"></p>
+              <p id="Johnavgdamage"></p>
+            </div>
+            <div class="killstats">
+              <p id="Johnmaxkills"></p>
+              <p id="Johnavgkills"></p>
+            </div>
+            <div class="deathstats">
+              <p id="Johnmaxdeaths"></p>
+              <p id="Johnavgdeaths"></p>
+            </div>
+            <div class="multikillstats">
+              <p id="Johnpentakills"></p>
+              <p id="Johnquadrakills"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border">
+        <h1>Michael</h1>
+        <div class="data" id="Michael">
+          <div>
+            <div class="games">
+              <p id="Michaelgamesplayed"></p>
+            </div>
+            <div class="gamesstats">
+              <p id="Michaelwins"></p>
+              <p id="Michaellosses"></p>
+              <p id="Michaelwinrate"></p>
+            </div>
+            <div class="mostdamagestats">
+              <p id="Michaeltimesmostdamage"></p>
+              <p id="Michaelmostdamagerate"></p>
+              <p id="Michaelwinratemostdamage"></p>
+            </div>
+          </div>
+          <div>
+            <div class="damagestats">
+              <p id="Michaelmaxdamage"></p>
+              <p id="Michaelavgdamage"></p>
+            </div>
+            <div class="killstats">
+              <p id="Michaelmaxkills"></p>
+              <p id="Michaelavgkills"></p>
+            </div>
+            <div class="deathstats">
+              <p id="Michaelmaxdeaths"></p>
+              <p id="Michaelavgdeaths"></p>
+            </div>
+            <div class="multikillstats">
+              <p id="Michaelpentakills"></p>
+              <p id="Michaelquadrakills"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border">
+        <h1>Will</h1>
+        <div class="data" id="Will">
+          <div>
+            <div class="games">
+              <p id="Willgamesplayed"></p>
+            </div>
+            <div class="gamesstats">
+              <p id="Willwins"></p>
+              <p id="Willlosses"></p>
+              <p id="Willwinrate"></p>
+            </div>
+            <div class="mostdamagestats">
+              <p id="Willtimesmostdamage"></p>
+              <p id="Willmostdamagerate"></p>
+              <p id="Willwinratemostdamage"></p>
+            </div>
+          </div>
+          <div>
+            <div class="damagestats">
+              <p id="Willmaxdamage"></p>
+              <p id="Willavgdamage"></p>
+            </div>
+            <div class="killstats">
+              <p id="Willmaxkills"></p>
+              <p id="Willavgkills"></p>
+            </div>
+            <div class="deathstats">
+              <p id="Willmaxdeaths"></p>
+              <p id="Willavgdeaths"></p>
+            </div>
+            <div class="multikillstats">
+              <p id="Willpentakills"></p>
+              <p id="Willquadrakills"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border">
+        <h1>Brij</h1>
+        <div class="data" id="Brij">
+          <div>
+            <div class="games">
+              <p id="Brijgamesplayed"></p>
+            </div>
+            <div class="gamesstats">
+              <p id="Brijwins"></p>
+              <p id="Brijlosses"></p>
+              <p id="Brijwinrate"></p>
+            </div>
+            <div class="mostdamagestats">
+              <p id="Brijtimesmostdamage"></p>
+              <p id="Brijmostdamagerate"></p>
+              <p id="Brijwinratemostdamage"></p>
+            </div>
+          </div>
+          <div>
+            <div class="damagestats">
+              <p id="Brijmaxdamage"></p>
+              <p id="Brijavgdamage"></p>
+            </div>
+            <div class="killstats">
+              <p id="Brijmaxkills"></p>
+              <p id="Brijavgkills"></p>
+            </div>
+            <div class="deathstats">
+              <p id="Brijmaxdeaths"></p>
+              <p id="Brijavgdeaths"></p>
+            </div>
+            <div class="multikillstats">
+              <p id="Brijpentakills"></p>
+              <p id="Brijquadrakills"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container2">
+      <div>
+        <h1>Elan and John</h1>
+
+        <div class="multidata" id="ElanJohn">
+          <div>
+            <p id="ElanJohnwinrate"></p>
+            <p id="ElanJohngames"></p>
+
+            <p id="ElanJohnElanmostdamage"></p>
+            <p id="ElanJohnJohnmostdamage"></p>
+            <p id="ElanJohnElanwinratedamage"></p>
+            <p id="ElanJohnJohnwinratedamage"></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1>Elan and Michael</h1>
+        <div class="multidata" id="ElanMichael">
+          <div>
+            <p id="ElanMichaelwinrate"></p>
+            <p id="ElanMichaelgames"></p>
+
+            <p id="ElanMichaelElanmostdamage"></p>
+            <p id="ElanMichaelMichaelmostdamage"></p>
+            <p id="ElanMichaelElanwinratedamage"></p>
+            <p id="ElanMichaelMichaelwinratedamage"></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1>John and Michael</h1>
+
+        <div class="multidata" id="JohnMichael">
+          <div>
+            <p id="JohnMichaelwinrate"></p>
+            <p id="JohnMichaelgames"></p>
+            <p id="JohnMichaelJohnmostdamage"></p>
+            <p id="JohnMichaelMichaelmostdamage"></p>
+            <p id="JohnMichaelJohnwinratedamage"></p>
+            <p id="JohnMichaelMichaelwinratedamage"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>

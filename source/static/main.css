@@ -1,0 +1,71 @@
+body {
+  background-image: url('aram.jpg');
+}
+
+.data {
+  text-align: center;
+  border: 5px solid black;
+}
+
+.games {
+  text-align: center;
+}
+
+.gamesstats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.mostdamagestats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.damagestats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.killstats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.deathstats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.multikillstats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+p {
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  grid-auto-rows: 100px;
+  height: 500px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: 100px;
+}
+
+.multidata {
+  text-align: center;
+  border: 5px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
